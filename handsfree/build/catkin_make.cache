@@ -1,0 +1,2 @@
+handsfree/base_simple_controller:handsfree/handsfree_2dnav:handsfree/handsfree_ar_tags:handsfree/handsfree_bringup:handsfree/handsfree_gazebo:handsfree/handsfree_hw:handsfree/handsfree_msgs:handsfree/rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/win/handsfree/devel -DCMAKE_INSTALL_PREFIX=/home/win/handsfree/install -G Unix Makefiles

@@ -1,0 +1,8 @@
+prefix=/home/win/handsfree/devel
+
+Name: handsfree_gazebo
+Description: Description of handsfree_gazebo
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/win/handsfree/devel/lib 
+Requires: 

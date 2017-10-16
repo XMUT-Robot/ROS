@@ -1,0 +1,8 @@
+prefix=/home/win/handsfree/install
+
+Name: base_simple_controller
+Description: Description of base_simple_controller
+Version: 0.1.0
+Cflags: -I/home/win/handsfree/install/include
+Libs: -L/home/win/handsfree/install/lib -lbase_simple_controller
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/win/handsfree/install
+
+Name: handsfree_2dnav
+Description: Description of handsfree_2dnav
+Version: 0.1.0
+Cflags: 
+Libs: -L/home/win/handsfree/install/lib 
+Requires: 

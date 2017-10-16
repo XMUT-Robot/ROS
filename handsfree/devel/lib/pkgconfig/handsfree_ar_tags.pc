@@ -1,0 +1,8 @@
+prefix=/home/win/handsfree/devel
+
+Name: handsfree_ar_tags
+Description: Description of handsfree_ar_tags
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/win/handsfree/devel/lib 
+Requires: 

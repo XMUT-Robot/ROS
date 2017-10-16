@@ -1,0 +1,8 @@
+prefix=/home/win/handsfree/install
+
+Name: rplidar_ros
+Description: Description of rplidar_ros
+Version: 1.0.1
+Cflags: 
+Libs: -L/home/win/handsfree/install/lib 
+Requires: 
