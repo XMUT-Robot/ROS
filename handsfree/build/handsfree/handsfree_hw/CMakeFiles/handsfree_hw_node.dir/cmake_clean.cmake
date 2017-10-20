@@ -5,8 +5,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link_state_machine.cpp.o"
   "CMakeFiles/handsfree_hw_node.dir/src/hf_hw.cpp.o"
   "CMakeFiles/handsfree_hw_node.dir/src/hf_hw_ros.cpp.o"
-  "/home/win/handsfree/devel/lib/handsfree_hw/handsfree_hw_node.pdb"
-  "/home/win/handsfree/devel/lib/handsfree_hw/handsfree_hw_node"
+  "/home/yobot/ROS/handsfree/devel/lib/handsfree_hw/handsfree_hw_node.pdb"
+  "/home/yobot/ROS/handsfree/devel/lib/handsfree_hw/handsfree_hw_node"
 )
 
 # Per-language clean rules from dependency scanning.

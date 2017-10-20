@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/win/handsfree/src
+CMAKE_SOURCE_DIR = /home/yobot/ROS/handsfree/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/win/handsfree/build
+CMAKE_BINARY_DIR = /home/yobot/ROS/handsfree/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -56,10 +56,10 @@ handsfree/handsfree_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/
 .PHONY : handsfree/handsfree_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 handsfree/handsfree_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/win/handsfree/build/handsfree/handsfree_bringup && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/yobot/ROS/handsfree/build/handsfree/handsfree_bringup && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : handsfree/handsfree_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 handsfree/handsfree_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/win/handsfree/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/win/handsfree/src /home/win/handsfree/src/handsfree/handsfree_bringup /home/win/handsfree/build /home/win/handsfree/build/handsfree/handsfree_bringup /home/win/handsfree/build/handsfree/handsfree_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yobot/ROS/handsfree/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yobot/ROS/handsfree/src /home/yobot/ROS/handsfree/src/handsfree/handsfree_bringup /home/yobot/ROS/handsfree/build /home/yobot/ROS/handsfree/build/handsfree/handsfree_bringup /home/yobot/ROS/handsfree/build/handsfree/handsfree_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : handsfree/handsfree_bringup/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

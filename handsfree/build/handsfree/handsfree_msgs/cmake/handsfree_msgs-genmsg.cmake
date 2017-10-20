@@ -2,7 +2,7 @@
 
 message(STATUS "handsfree_msgs: 2 messages, 2 services")
 
-set(MSG_I_FLAGS "-Ihandsfree_msgs:/home/win/handsfree/src/handsfree/handsfree_msgs/msg;-Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ihandsfree_msgs:/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg;-Isensor_msgs:/opt/ros/indigo/share/sensor_msgs/cmake/../msg;-Istd_msgs:/opt/ros/indigo/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/indigo/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -15,24 +15,24 @@ add_custom_target(handsfree_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" NAME_WE)
 add_custom_target(_handsfree_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "handsfree_msgs" "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" "handsfree_msgs/parameters"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "handsfree_msgs" "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" "handsfree_msgs/parameters"
 )
 
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" NAME_WE)
 add_custom_target(_handsfree_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "handsfree_msgs" "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "handsfree_msgs" "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" ""
 )
 
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" NAME_WE)
 add_custom_target(_handsfree_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "handsfree_msgs" "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" "handsfree_msgs/parameters"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "handsfree_msgs" "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" "handsfree_msgs/parameters"
 )
 
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" NAME_WE)
 add_custom_target(_handsfree_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "handsfree_msgs" "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "handsfree_msgs" "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" "std_msgs/Header"
 )
 
 #
@@ -42,29 +42,29 @@ add_custom_target(_handsfree_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/handsfree_msgs
 )
 _generate_msg_cpp(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/handsfree_msgs
 )
 
 ### Generating Services
 _generate_srv_cpp(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv"
   "${MSG_I_FLAGS}"
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/handsfree_msgs
 )
 _generate_srv_cpp(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv"
   "${MSG_I_FLAGS}"
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/handsfree_msgs
 )
 
@@ -80,13 +80,13 @@ add_custom_target(handsfree_msgs_generate_messages_cpp
 add_dependencies(handsfree_msgs_generate_messages handsfree_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_cpp _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_cpp _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_cpp _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_cpp _handsfree_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -99,29 +99,29 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS handsfree_msgs_generate_messages_cp
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/handsfree_msgs
 )
 _generate_msg_lisp(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/handsfree_msgs
 )
 
 ### Generating Services
 _generate_srv_lisp(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv"
   "${MSG_I_FLAGS}"
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/handsfree_msgs
 )
 _generate_srv_lisp(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv"
   "${MSG_I_FLAGS}"
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/handsfree_msgs
 )
 
@@ -137,13 +137,13 @@ add_custom_target(handsfree_msgs_generate_messages_lisp
 add_dependencies(handsfree_msgs_generate_messages handsfree_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_lisp _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_lisp _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_lisp _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_lisp _handsfree_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -156,29 +156,29 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS handsfree_msgs_generate_messages_li
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/handsfree_msgs
 )
 _generate_msg_py(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg"
   "${MSG_I_FLAGS}"
-  ""
+  "/opt/ros/indigo/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/handsfree_msgs
 )
 
 ### Generating Services
 _generate_srv_py(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv"
   "${MSG_I_FLAGS}"
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/handsfree_msgs
 )
 _generate_srv_py(handsfree_msgs
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv"
   "${MSG_I_FLAGS}"
-  "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/handsfree_msgs
 )
 
@@ -194,13 +194,13 @@ add_custom_target(handsfree_msgs_generate_messages_py
 add_dependencies(handsfree_msgs_generate_messages handsfree_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_py _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_py _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_py _handsfree_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg" NAME_WE)
+get_filename_component(_filename "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg" NAME_WE)
 add_dependencies(handsfree_msgs_generate_messages_py _handsfree_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

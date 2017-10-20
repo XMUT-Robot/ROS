@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/win/handsfree/src/handsfree/base_simple_controller/src/base_simple_controller.cpp" "/home/win/handsfree/build/handsfree/base_simple_controller/CMakeFiles/base_simple_controller.dir/src/base_simple_controller.cpp.o"
+  "/home/yobot/ROS/handsfree/src/handsfree/base_simple_controller/src/base_simple_controller.cpp" "/home/yobot/ROS/handsfree/build/handsfree/base_simple_controller/CMakeFiles/base_simple_controller.dir/src/base_simple_controller.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,8 +21,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/win/handsfree/src/handsfree/base_simple_controller/include"
-  "/home/win/handsfree/src/handsfree/handsfree_hw/include"
+  "/home/yobot/ROS/handsfree/src/handsfree/base_simple_controller/include"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_hw/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

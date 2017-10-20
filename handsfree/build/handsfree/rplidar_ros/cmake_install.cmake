@@ -1,8 +1,8 @@
-# Install script for directory: /home/win/handsfree/src/handsfree/rplidar_ros
+# Install script for directory: /home/yobot/ROS/handsfree/src/handsfree/rplidar_ros
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/win/handsfree/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/yobot/ROS/handsfree/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/win/handsfree/build/handsfree/rplidar_ros/catkin_generated/installspace/rplidar_ros.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yobot/ROS/handsfree/build/handsfree/rplidar_ros/catkin_generated/installspace/rplidar_ros.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rplidar_ros/cmake" TYPE FILE FILES
-    "/home/win/handsfree/build/handsfree/rplidar_ros/catkin_generated/installspace/rplidar_rosConfig.cmake"
-    "/home/win/handsfree/build/handsfree/rplidar_ros/catkin_generated/installspace/rplidar_rosConfig-version.cmake"
+    "/home/yobot/ROS/handsfree/build/handsfree/rplidar_ros/catkin_generated/installspace/rplidar_rosConfig.cmake"
+    "/home/yobot/ROS/handsfree/build/handsfree/rplidar_ros/catkin_generated/installspace/rplidar_rosConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rplidar_ros" TYPE FILE FILES "/home/win/handsfree/src/handsfree/rplidar_ros/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rplidar_ros" TYPE FILE FILES "/home/yobot/ROS/handsfree/src/handsfree/rplidar_ros/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

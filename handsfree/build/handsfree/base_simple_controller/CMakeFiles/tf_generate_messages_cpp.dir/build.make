@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/win/handsfree/src
+CMAKE_SOURCE_DIR = /home/yobot/ROS/handsfree/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/win/handsfree/build
+CMAKE_BINARY_DIR = /home/yobot/ROS/handsfree/build
 
 # Utility rule file for tf_generate_messages_cpp.
 
@@ -56,10 +56,10 @@ handsfree/base_simple_controller/CMakeFiles/tf_generate_messages_cpp.dir/build: 
 .PHONY : handsfree/base_simple_controller/CMakeFiles/tf_generate_messages_cpp.dir/build
 
 handsfree/base_simple_controller/CMakeFiles/tf_generate_messages_cpp.dir/clean:
-	cd /home/win/handsfree/build/handsfree/base_simple_controller && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/yobot/ROS/handsfree/build/handsfree/base_simple_controller && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : handsfree/base_simple_controller/CMakeFiles/tf_generate_messages_cpp.dir/clean
 
 handsfree/base_simple_controller/CMakeFiles/tf_generate_messages_cpp.dir/depend:
-	cd /home/win/handsfree/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/win/handsfree/src /home/win/handsfree/src/handsfree/base_simple_controller /home/win/handsfree/build /home/win/handsfree/build/handsfree/base_simple_controller /home/win/handsfree/build/handsfree/base_simple_controller/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yobot/ROS/handsfree/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yobot/ROS/handsfree/src /home/yobot/ROS/handsfree/src/handsfree/base_simple_controller /home/yobot/ROS/handsfree/build /home/yobot/ROS/handsfree/build/handsfree/base_simple_controller /home/yobot/ROS/handsfree/build/handsfree/base_simple_controller/CMakeFiles/tf_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : handsfree/base_simple_controller/CMakeFiles/tf_generate_messages_cpp.dir/depend
 

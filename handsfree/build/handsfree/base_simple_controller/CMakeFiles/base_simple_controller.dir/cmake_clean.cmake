@@ -1,7 +1,7 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/base_simple_controller.dir/src/base_simple_controller.cpp.o"
-  "/home/win/handsfree/devel/lib/libbase_simple_controller.pdb"
-  "/home/win/handsfree/devel/lib/libbase_simple_controller.so"
+  "/home/yobot/ROS/handsfree/devel/lib/libbase_simple_controller.pdb"
+  "/home/yobot/ROS/handsfree/devel/lib/libbase_simple_controller.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/win/handsfree/src/handsfree/base_simple_controller
+# Install script for directory: /home/yobot/ROS/handsfree/src/handsfree/base_simple_controller
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/win/handsfree/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/yobot/ROS/handsfree/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/win/handsfree/build/handsfree/base_simple_controller/catkin_generated/installspace/base_simple_controller.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yobot/ROS/handsfree/build/handsfree/base_simple_controller/catkin_generated/installspace/base_simple_controller.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_simple_controller/cmake" TYPE FILE FILES
-    "/home/win/handsfree/build/handsfree/base_simple_controller/catkin_generated/installspace/base_simple_controllerConfig.cmake"
-    "/home/win/handsfree/build/handsfree/base_simple_controller/catkin_generated/installspace/base_simple_controllerConfig-version.cmake"
+    "/home/yobot/ROS/handsfree/build/handsfree/base_simple_controller/catkin_generated/installspace/base_simple_controllerConfig.cmake"
+    "/home/yobot/ROS/handsfree/build/handsfree/base_simple_controller/catkin_generated/installspace/base_simple_controllerConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_simple_controller" TYPE FILE FILES "/home/win/handsfree/src/handsfree/base_simple_controller/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/base_simple_controller" TYPE FILE FILES "/home/yobot/ROS/handsfree/src/handsfree/base_simple_controller/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

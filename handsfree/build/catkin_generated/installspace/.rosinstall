@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/win/handsfree/install/setup.sh
+    local-name: /home/yobot/ROS/handsfree/install/setup.sh

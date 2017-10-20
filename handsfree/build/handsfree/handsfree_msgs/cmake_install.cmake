@@ -1,8 +1,8 @@
-# Install script for directory: /home/win/handsfree/src/handsfree/handsfree_msgs
+# Install script for directory: /home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/win/handsfree/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/yobot/ROS/handsfree/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,54 +34,54 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs/msg" TYPE FILE FILES
-    "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg"
-    "/home/win/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
+    "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/robot_state.msg"
+    "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/msg/parameters.msg"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs/srv" TYPE FILE FILES
-    "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv"
-    "/home/win/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv"
+    "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/GetParamList.srv"
+    "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/srv/SetParamList.srv"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs/cmake" TYPE FILE FILES "/home/win/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgs-msg-paths.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs/cmake" TYPE FILE FILES "/home/yobot/ROS/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgs-msg-paths.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/win/handsfree/devel/include/handsfree_msgs")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yobot/ROS/handsfree/devel/include/handsfree_msgs")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/win/handsfree/devel/share/common-lisp/ros/handsfree_msgs")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/yobot/ROS/handsfree/devel/share/common-lisp/ros/handsfree_msgs")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/win/handsfree/devel/lib/python2.7/dist-packages/handsfree_msgs")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/yobot/ROS/handsfree/devel/lib/python2.7/dist-packages/handsfree_msgs")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/win/handsfree/devel/lib/python2.7/dist-packages/handsfree_msgs")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/yobot/ROS/handsfree/devel/lib/python2.7/dist-packages/handsfree_msgs")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/win/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgs.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yobot/ROS/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgs.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs/cmake" TYPE FILE FILES "/home/win/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgs-msg-extras.cmake")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs/cmake" TYPE FILE FILES "/home/yobot/ROS/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgs-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs/cmake" TYPE FILE FILES
-    "/home/win/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgsConfig.cmake"
-    "/home/win/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgsConfig-version.cmake"
+    "/home/yobot/ROS/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgsConfig.cmake"
+    "/home/yobot/ROS/handsfree/build/handsfree/handsfree_msgs/catkin_generated/installspace/handsfree_msgsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs" TYPE FILE FILES "/home/win/handsfree/src/handsfree/handsfree_msgs/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_msgs" TYPE FILE FILES "/home/yobot/ROS/handsfree/src/handsfree/handsfree_msgs/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

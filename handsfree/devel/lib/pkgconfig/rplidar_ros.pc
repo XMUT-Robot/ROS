@@ -1,8 +1,8 @@
-prefix=/home/win/handsfree/devel
+prefix=/home/yobot/ROS/handsfree/devel
 
 Name: rplidar_ros
 Description: Description of rplidar_ros
 Version: 1.0.1
 Cflags: 
-Libs: -L/home/win/handsfree/devel/lib 
+Libs: -L/home/yobot/ROS/handsfree/devel/lib 
 Requires: 

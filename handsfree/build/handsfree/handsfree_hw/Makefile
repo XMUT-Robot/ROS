@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/win/handsfree/src
+CMAKE_SOURCE_DIR = /home/yobot/ROS/handsfree/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/win/handsfree/build
+CMAKE_BINARY_DIR = /home/yobot/ROS/handsfree/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -120,14 +120,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/win/handsfree/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/win/handsfree/build/CMakeFiles /home/win/handsfree/build/handsfree/handsfree_hw/CMakeFiles/progress.marks
-	cd /home/win/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/win/handsfree/build/CMakeFiles 0
+	cd /home/yobot/ROS/handsfree/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/handsfree/build/CMakeFiles /home/yobot/ROS/handsfree/build/handsfree/handsfree_hw/CMakeFiles/progress.marks
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/handsfree/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/win/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/clean
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/clean
 .PHONY : clean
 
 # The main clean target
@@ -136,22 +136,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/win/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/preinstall
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/win/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/preinstall
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/win/handsfree/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/yobot/ROS/handsfree/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule:
-	cd /home/win/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
 .PHONY : handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -160,12 +160,12 @@ controller_manager_msgs_generate_messages_cpp: handsfree/handsfree_hw/CMakeFiles
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_cpp/fast:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build.make handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build.make handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/build
 .PHONY : controller_manager_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule:
-	cd /home/win/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
 .PHONY : handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -174,12 +174,12 @@ controller_manager_msgs_generate_messages_lisp: handsfree/handsfree_hw/CMakeFile
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_lisp/fast:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
 .PHONY : controller_manager_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule:
-	cd /home/win/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
 .PHONY : handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ controller_manager_msgs_generate_messages_py: handsfree/handsfree_hw/CMakeFiles/
 
 # fast build rule for target.
 controller_manager_msgs_generate_messages_py/fast:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build.make handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build.make handsfree/handsfree_hw/CMakeFiles/controller_manager_msgs_generate_messages_py.dir/build
 .PHONY : controller_manager_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/rule:
-	cd /home/win/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/rule
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f CMakeFiles/Makefile2 handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/rule
 .PHONY : handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/rule
 
 # Convenience name for target.
@@ -202,7 +202,7 @@ handsfree_hw_node: handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/rule
 
 # fast build rule for target.
 handsfree_hw_node/fast:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build
 .PHONY : handsfree_hw_node/fast
 
 include/sdk/hf_link/hf_link.o: include/sdk/hf_link/hf_link.cpp.o
@@ -210,7 +210,7 @@ include/sdk/hf_link/hf_link.o: include/sdk/hf_link/hf_link.cpp.o
 
 # target to build an object file
 include/sdk/hf_link/hf_link.cpp.o:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link.cpp.o
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link.cpp.o
 .PHONY : include/sdk/hf_link/hf_link.cpp.o
 
 include/sdk/hf_link/hf_link.i: include/sdk/hf_link/hf_link.cpp.i
@@ -218,7 +218,7 @@ include/sdk/hf_link/hf_link.i: include/sdk/hf_link/hf_link.cpp.i
 
 # target to preprocess a source file
 include/sdk/hf_link/hf_link.cpp.i:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link.cpp.i
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link.cpp.i
 .PHONY : include/sdk/hf_link/hf_link.cpp.i
 
 include/sdk/hf_link/hf_link.s: include/sdk/hf_link/hf_link.cpp.s
@@ -226,7 +226,7 @@ include/sdk/hf_link/hf_link.s: include/sdk/hf_link/hf_link.cpp.s
 
 # target to generate assembly for a file
 include/sdk/hf_link/hf_link.cpp.s:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link.cpp.s
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link.cpp.s
 .PHONY : include/sdk/hf_link/hf_link.cpp.s
 
 include/sdk/hf_link/hf_link_state_machine.o: include/sdk/hf_link/hf_link_state_machine.cpp.o
@@ -234,7 +234,7 @@ include/sdk/hf_link/hf_link_state_machine.o: include/sdk/hf_link/hf_link_state_m
 
 # target to build an object file
 include/sdk/hf_link/hf_link_state_machine.cpp.o:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link_state_machine.cpp.o
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link_state_machine.cpp.o
 .PHONY : include/sdk/hf_link/hf_link_state_machine.cpp.o
 
 include/sdk/hf_link/hf_link_state_machine.i: include/sdk/hf_link/hf_link_state_machine.cpp.i
@@ -242,7 +242,7 @@ include/sdk/hf_link/hf_link_state_machine.i: include/sdk/hf_link/hf_link_state_m
 
 # target to preprocess a source file
 include/sdk/hf_link/hf_link_state_machine.cpp.i:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link_state_machine.cpp.i
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link_state_machine.cpp.i
 .PHONY : include/sdk/hf_link/hf_link_state_machine.cpp.i
 
 include/sdk/hf_link/hf_link_state_machine.s: include/sdk/hf_link/hf_link_state_machine.cpp.s
@@ -250,7 +250,7 @@ include/sdk/hf_link/hf_link_state_machine.s: include/sdk/hf_link/hf_link_state_m
 
 # target to generate assembly for a file
 include/sdk/hf_link/hf_link_state_machine.cpp.s:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link_state_machine.cpp.s
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/include/sdk/hf_link/hf_link_state_machine.cpp.s
 .PHONY : include/sdk/hf_link/hf_link_state_machine.cpp.s
 
 src/hf_hw.o: src/hf_hw.cpp.o
@@ -258,7 +258,7 @@ src/hf_hw.o: src/hf_hw.cpp.o
 
 # target to build an object file
 src/hf_hw.cpp.o:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw.cpp.o
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw.cpp.o
 .PHONY : src/hf_hw.cpp.o
 
 src/hf_hw.i: src/hf_hw.cpp.i
@@ -266,7 +266,7 @@ src/hf_hw.i: src/hf_hw.cpp.i
 
 # target to preprocess a source file
 src/hf_hw.cpp.i:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw.cpp.i
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw.cpp.i
 .PHONY : src/hf_hw.cpp.i
 
 src/hf_hw.s: src/hf_hw.cpp.s
@@ -274,7 +274,7 @@ src/hf_hw.s: src/hf_hw.cpp.s
 
 # target to generate assembly for a file
 src/hf_hw.cpp.s:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw.cpp.s
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw.cpp.s
 .PHONY : src/hf_hw.cpp.s
 
 src/hf_hw_ros.o: src/hf_hw_ros.cpp.o
@@ -282,7 +282,7 @@ src/hf_hw_ros.o: src/hf_hw_ros.cpp.o
 
 # target to build an object file
 src/hf_hw_ros.cpp.o:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw_ros.cpp.o
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw_ros.cpp.o
 .PHONY : src/hf_hw_ros.cpp.o
 
 src/hf_hw_ros.i: src/hf_hw_ros.cpp.i
@@ -290,7 +290,7 @@ src/hf_hw_ros.i: src/hf_hw_ros.cpp.i
 
 # target to preprocess a source file
 src/hf_hw_ros.cpp.i:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw_ros.cpp.i
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw_ros.cpp.i
 .PHONY : src/hf_hw_ros.cpp.i
 
 src/hf_hw_ros.s: src/hf_hw_ros.cpp.s
@@ -298,7 +298,7 @@ src/hf_hw_ros.s: src/hf_hw_ros.cpp.s
 
 # target to generate assembly for a file
 src/hf_hw_ros.cpp.s:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw_ros.cpp.s
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/hf_hw_ros.cpp.s
 .PHONY : src/hf_hw_ros.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -306,7 +306,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/main.cpp.o
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -314,7 +314,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/main.cpp.i
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -322,7 +322,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/main.cpp.s
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/transport_serial.o: src/transport_serial.cpp.o
@@ -330,7 +330,7 @@ src/transport_serial.o: src/transport_serial.cpp.o
 
 # target to build an object file
 src/transport_serial.cpp.o:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/transport_serial.cpp.o
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/transport_serial.cpp.o
 .PHONY : src/transport_serial.cpp.o
 
 src/transport_serial.i: src/transport_serial.cpp.i
@@ -338,7 +338,7 @@ src/transport_serial.i: src/transport_serial.cpp.i
 
 # target to preprocess a source file
 src/transport_serial.cpp.i:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/transport_serial.cpp.i
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/transport_serial.cpp.i
 .PHONY : src/transport_serial.cpp.i
 
 src/transport_serial.s: src/transport_serial.cpp.s
@@ -346,7 +346,7 @@ src/transport_serial.s: src/transport_serial.cpp.s
 
 # target to generate assembly for a file
 src/transport_serial.cpp.s:
-	cd /home/win/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/transport_serial.cpp.s
+	cd /home/yobot/ROS/handsfree/build && $(MAKE) -f handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/build.make handsfree/handsfree_hw/CMakeFiles/handsfree_hw_node.dir/src/transport_serial.cpp.s
 .PHONY : src/transport_serial.cpp.s
 
 # Help Target
@@ -395,6 +395,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/win/handsfree/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/yobot/ROS/handsfree/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

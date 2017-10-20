@@ -1,8 +1,8 @@
-# Install script for directory: /home/win/handsfree/src/handsfree/handsfree_bringup
+# Install script for directory: /home/yobot/ROS/handsfree/src/handsfree/handsfree_bringup
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/win/handsfree/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/yobot/ROS/handsfree/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/win/handsfree/build/handsfree/handsfree_bringup/catkin_generated/installspace/handsfree_bringup.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yobot/ROS/handsfree/build/handsfree/handsfree_bringup/catkin_generated/installspace/handsfree_bringup.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_bringup/cmake" TYPE FILE FILES
-    "/home/win/handsfree/build/handsfree/handsfree_bringup/catkin_generated/installspace/handsfree_bringupConfig.cmake"
-    "/home/win/handsfree/build/handsfree/handsfree_bringup/catkin_generated/installspace/handsfree_bringupConfig-version.cmake"
+    "/home/yobot/ROS/handsfree/build/handsfree/handsfree_bringup/catkin_generated/installspace/handsfree_bringupConfig.cmake"
+    "/home/yobot/ROS/handsfree/build/handsfree/handsfree_bringup/catkin_generated/installspace/handsfree_bringupConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_bringup" TYPE FILE FILES "/home/win/handsfree/src/handsfree/handsfree_bringup/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/handsfree_bringup" TYPE FILE FILES "/home/yobot/ROS/handsfree/src/handsfree/handsfree_bringup/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

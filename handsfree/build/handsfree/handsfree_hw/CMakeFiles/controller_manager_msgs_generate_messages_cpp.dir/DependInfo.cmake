@@ -16,11 +16,11 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/win/handsfree/src/handsfree/handsfree_hw/include"
-  "/home/win/handsfree/devel/include"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_hw/include"
+  "/home/yobot/ROS/handsfree/devel/include"
   "/opt/ros/indigo/include"
-  "/home/win/handsfree/src/handsfree/handsfree_hw/include/sdk/hf_link"
-  "/home/win/handsfree/src/handsfree/handsfree_hw/include/sdk/robot_abstract"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_hw/include/sdk/hf_link"
+  "/home/yobot/ROS/handsfree/src/handsfree/handsfree_hw/include/sdk/robot_abstract"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

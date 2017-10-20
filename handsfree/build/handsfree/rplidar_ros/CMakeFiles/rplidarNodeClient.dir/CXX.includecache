@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/win/handsfree/src/handsfree/rplidar_ros/src/client.cpp
+/home/yobot/ROS/handsfree/src/handsfree/rplidar_ros/src/client.cpp
 ros/ros.h
-/home/win/handsfree/src/handsfree/rplidar_ros/src/ros/ros.h
+/home/yobot/ROS/handsfree/src/handsfree/rplidar_ros/src/ros/ros.h
 sensor_msgs/LaserScan.h
-/home/win/handsfree/src/handsfree/rplidar_ros/src/sensor_msgs/LaserScan.h
+/home/yobot/ROS/handsfree/src/handsfree/rplidar_ros/src/sensor_msgs/LaserScan.h
 

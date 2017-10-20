@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/win/handsfree/src/handsfree/rplidar_ros/src/client.cpp" "/home/win/handsfree/build/handsfree/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
+  "/home/yobot/ROS/handsfree/src/handsfree/rplidar_ros/src/client.cpp" "/home/yobot/ROS/handsfree/build/handsfree/rplidar_ros/CMakeFiles/rplidarNodeClient.dir/src/client.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,8 +21,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/win/handsfree/src/handsfree/rplidar_ros/./sdk/include"
-  "/home/win/handsfree/src/handsfree/rplidar_ros/./sdk/src"
+  "/home/yobot/ROS/handsfree/src/handsfree/rplidar_ros/./sdk/include"
+  "/home/yobot/ROS/handsfree/src/handsfree/rplidar_ros/./sdk/src"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/win/handsfree/src/handsfree/base_simple_controller/include/base_simple_controller/base_simple_controller.h
+/home/yobot/ROS/handsfree/src/handsfree/base_simple_controller/include/base_simple_controller/base_simple_controller.h
 controller_interface/controller.h
 -
 handsfree_hw/base_cmd_interface.h
@@ -28,7 +28,7 @@ nav_msgs/Odometry.h
 geometry_msgs/Twist.h
 -
 
-/home/win/handsfree/src/handsfree/base_simple_controller/src/base_simple_controller.cpp
+/home/yobot/ROS/handsfree/src/handsfree/base_simple_controller/src/base_simple_controller.cpp
 base_simple_controller/base_simple_controller.h
 -
 boost/assign.hpp
@@ -36,7 +36,7 @@ boost/assign.hpp
 tf/transform_datatypes.h
 -
 
-/home/win/handsfree/src/handsfree/handsfree_hw/include/handsfree_hw/base_cmd_interface.h
+/home/yobot/ROS/handsfree/src/handsfree/handsfree_hw/include/handsfree_hw/base_cmd_interface.h
 cassert
 -
 string
@@ -48,7 +48,7 @@ hardware_interface/joint_state_interface.h
 handsfree_hw/base_state_interface.h
 -
 
-/home/win/handsfree/src/handsfree/handsfree_hw/include/handsfree_hw/base_state_interface.h
+/home/yobot/ROS/handsfree/src/handsfree/handsfree_hw/include/handsfree_hw/base_state_interface.h
 hardware_interface/internal/hardware_resource_manager.h
 -
 cassert
