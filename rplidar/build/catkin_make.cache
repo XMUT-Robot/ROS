@@ -1,0 +1,2 @@
+rplidar_ros
+-DCATKIN_DEVEL_PREFIX=/home/yobot/ROS/rplidar/devel -DCMAKE_INSTALL_PREFIX=/home/yobot/ROS/rplidar/install -G Unix Makefiles
