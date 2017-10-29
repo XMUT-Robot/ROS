@@ -196,3 +196,11 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+add_executable(chap2_example1_a src/example1_a.cpp)
+add_executable(chap2_example1_b src/example1_b.cpp)
+
+add_dependencies(chap2_example1_a chapter2_tutorials_generate_messages_cpp)
+add_dependencies(chap2_example1_b chapter2_tutorials_generate_messages_cpp)
+
+target_link_libraries(chap2_example1_a ${catkin_LIBRARIES})
+target_link_libraries(chap2_example1_b ${catkin_LIBRARIES})

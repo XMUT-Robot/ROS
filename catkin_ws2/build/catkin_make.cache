@@ -1,2 +1,2 @@
 chapter2_tutorials
--DCATKIN_DEVEL_PREFIX=/home/yobot/ROS/catkin_ws2/devel -DCMAKE_INSTALL_PREFIX=/home/yobot/ROS/catkin_ws2/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/win/ROS/catkin_ws2/devel -DCMAKE_INSTALL_PREFIX=/home/win/ROS/catkin_ws2/install -G Unix Makefiles

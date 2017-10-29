@@ -1,8 +1,8 @@
-prefix=/home/yobot/ROS/catkin_ws2/devel
+prefix=/home/win/ROS/catkin_ws2/devel
 
 Name: chapter2_tutorials
 Description: Description of chapter2_tutorials
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/yobot/ROS/catkin_ws2/devel/lib 
+Libs: -L/home/win/ROS/catkin_ws2/devel/lib 
 Requires: 
