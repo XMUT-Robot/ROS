@@ -1,8 +1,8 @@
-prefix=/home/win/ROS/catkin_ws2/install
+prefix=/home/yobot/ROS/catkin_ws2/install
 
 Name: chapter2_tutorials
 Description: Description of chapter2_tutorials
 Version: 0.0.0
-Cflags: 
-Libs: -L/home/win/ROS/catkin_ws2/install/lib 
-Requires: 
+Cflags: -I/home/yobot/ROS/catkin_ws2/install/include
+Libs: -L/home/yobot/ROS/catkin_ws2/install/lib 
+Requires: message_runtime

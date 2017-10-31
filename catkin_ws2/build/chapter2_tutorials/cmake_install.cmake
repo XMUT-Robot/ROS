@@ -1,8 +1,8 @@
-# Install script for directory: /home/win/ROS/catkin_ws2/src/chapter2_tutorials
+# Install script for directory: /home/yobot/ROS/catkin_ws2/src/chapter2_tutorials
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "/home/win/ROS/catkin_ws2/install")
+  SET(CMAKE_INSTALL_PREFIX "/home/yobot/ROS/catkin_ws2/install")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,49 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/win/ROS/catkin_ws2/build/chapter2_tutorials/catkin_generated/installspace/chapter2_tutorials.pc")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapter2_tutorials/msg" TYPE FILE FILES "/home/yobot/ROS/catkin_ws2/src/chapter2_tutorials/msg/chapter2_msg1.msg")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapter2_tutorials/srv" TYPE FILE FILES "/home/yobot/ROS/catkin_ws2/src/chapter2_tutorials/srv/chapter2_srv1.srv")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapter2_tutorials/cmake" TYPE FILE FILES "/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/catkin_generated/installspace/chapter2_tutorials-msg-paths.cmake")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/yobot/ROS/catkin_ws2/devel/include/chapter2_tutorials")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/yobot/ROS/catkin_ws2/devel/share/common-lisp/ros/chapter2_tutorials")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/yobot/ROS/catkin_ws2/devel/lib/python2.7/dist-packages/chapter2_tutorials")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/yobot/ROS/catkin_ws2/devel/lib/python2.7/dist-packages/chapter2_tutorials")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/catkin_generated/installspace/chapter2_tutorials.pc")
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapter2_tutorials/cmake" TYPE FILE FILES "/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/catkin_generated/installspace/chapter2_tutorials-msg-extras.cmake")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapter2_tutorials/cmake" TYPE FILE FILES
-    "/home/win/ROS/catkin_ws2/build/chapter2_tutorials/catkin_generated/installspace/chapter2_tutorialsConfig.cmake"
-    "/home/win/ROS/catkin_ws2/build/chapter2_tutorials/catkin_generated/installspace/chapter2_tutorialsConfig-version.cmake"
+    "/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/catkin_generated/installspace/chapter2_tutorialsConfig.cmake"
+    "/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/catkin_generated/installspace/chapter2_tutorialsConfig-version.cmake"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapter2_tutorials" TYPE FILE FILES "/home/win/ROS/catkin_ws2/src/chapter2_tutorials/package.xml")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/chapter2_tutorials" TYPE FILE FILES "/home/yobot/ROS/catkin_ws2/src/chapter2_tutorials/package.xml")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -7,7 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export LD_LIBRARY_PATH="/opt/ros/indigo/lib"
-export PKG_CONFIG_PATH="/opt/ros/indigo/lib/pkgconfig"
-export PWD="/home/win/ROS/catkin_ws2/build"
-export ROS_PACKAGE_PATH="/home/win/ROS/catkin_ws2/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"
+export PWD="/home/yobot/ROS/catkin_ws2/build"

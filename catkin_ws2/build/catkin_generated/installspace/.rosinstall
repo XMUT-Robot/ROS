@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/win/ROS/catkin_ws2/install/setup.sh
+    local-name: /home/yobot/ROS/catkin_ws2/install/setup.sh

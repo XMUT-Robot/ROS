@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/win/ROS/catkin_ws2/src/chapter2_tutorials/src/example1_a.cpp
+/home/yobot/ROS/catkin_ws2/src/chapter2_tutorials/src/example1_a.cpp
 ros/ros.h
-/home/win/ROS/catkin_ws2/src/chapter2_tutorials/src/ros/ros.h
+/home/yobot/ROS/catkin_ws2/src/chapter2_tutorials/src/ros/ros.h
 std_msgs/String.h
-/home/win/ROS/catkin_ws2/src/chapter2_tutorials/src/std_msgs/String.h
+/home/yobot/ROS/catkin_ws2/src/chapter2_tutorials/src/std_msgs/String.h
 sstream
 -
 

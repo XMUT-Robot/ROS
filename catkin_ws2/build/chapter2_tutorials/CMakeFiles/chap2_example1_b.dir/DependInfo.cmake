@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/win/ROS/catkin_ws2/src/chapter2_tutorials/src/example1_b.cpp" "/home/win/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chap2_example1_b.dir/src/example1_b.cpp.o"
+  "/home/yobot/ROS/catkin_ws2/src/chapter2_tutorials/src/example1_b.cpp" "/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chap2_example1_b.dir/src/example1_b.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,6 +21,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
+  "/home/yobot/ROS/catkin_ws2/devel/include"
   "/opt/ros/indigo/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

@@ -7,9 +7,12 @@ project(chapter2_tutorials)
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
+#发现catkin宏和库
+#如果组件列表如find_package(catkin所需组件xyz),还发现其他的catkin包 1
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
+  message_generation #2017年10月30日13:43:20
 )
 
 ## System dependencies are found with CMake's conventions
@@ -45,19 +48,17 @@ find_package(catkin REQUIRED COMPONENTS
 ##   * uncomment the generate_messages entry below
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
-## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+## Generate messages in the 'msg' folder 生成消息的“msg”文件夹中 2
+add_message_files(
+  FILES
+  chapter2_msg1.msg
+)
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files( #2
+  FILES
+  chapter2_srv1.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(
@@ -66,11 +67,11 @@ find_package(catkin REQUIRED COMPONENTS
 #   Action2.action
 # )
 
-## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   std_msgs
-# )
+## Generate added messages and services with any dependencies listed here 生成添加消息和服务与任何依赖项列在这里 3
+generate_messages(
+  DEPENDENCIES
+  std_msgs
+)
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -102,6 +103,7 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
+CATKIN_DEPENDS message_runtime #1
 #  INCLUDE_DIRS include
 #  LIBRARIES chapter2_tutorials
 #  CATKIN_DEPENDS roscpp std_msgs
@@ -196,3 +198,22 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+#1
+add_executable(chap2_example1_a src/example1_a.cpp)
+add_executable(chap2_example1_b src/example1_b.cpp)
+
+add_dependencies(chap2_example1_a chapter2_tutorials_generate_messages_cpp)
+add_dependencies(chap2_example1_b chapter2_tutorials_generate_messages_cpp)
+
+target_link_libraries(chap2_example1_a ${catkin_LIBRARIES})
+target_link_libraries(chap2_example1_b ${catkin_LIBRARIES})
+
+#2
+add_executable(chap2_example2_a src/example2_a.cpp)
+add_executable(chap2_example2_b src/example2_b.cpp)
+
+add_dependencies(chap2_example2_a chapter2_tutorials_generate_messages_cpp)
+add_dependencies(chap2_example2_b chapter2_tutorials_generate_messages_cpp)
+
+target_link_libraries(chap2_example2_a ${catkin_LIBRARIES})
+target_link_libraries(chap2_example2_b ${catkin_LIBRARIES})
