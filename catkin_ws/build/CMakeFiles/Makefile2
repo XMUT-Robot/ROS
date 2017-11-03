@@ -230,7 +230,7 @@ gtest/preinstall:
 gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  2
 	@echo "Built target gtest"
 .PHONY : gtest/CMakeFiles/gtest.dir/all
 
@@ -261,7 +261,7 @@ clean: gtest/CMakeFiles/gtest.dir/clean
 gtest/CMakeFiles/gtest_main.dir/all: gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  3
 	@echo "Built target gtest_main"
 .PHONY : gtest/CMakeFiles/gtest_main.dir/all
 
@@ -318,7 +318,7 @@ beginner_tutorials/preinstall:
 beginner_tutorials/CMakeFiles/listener.dir/all:
 	$(MAKE) -f beginner_tutorials/CMakeFiles/listener.dir/build.make beginner_tutorials/CMakeFiles/listener.dir/depend
 	$(MAKE) -f beginner_tutorials/CMakeFiles/listener.dir/build.make beginner_tutorials/CMakeFiles/listener.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  11
 	@echo "Built target listener"
 .PHONY : beginner_tutorials/CMakeFiles/listener.dir/all
 
@@ -632,7 +632,7 @@ clean: beginner_tutorials/CMakeFiles/std_msgs_generate_messages_py.dir/clean
 beginner_tutorials/CMakeFiles/talker.dir/all:
 	$(MAKE) -f beginner_tutorials/CMakeFiles/talker.dir/build.make beginner_tutorials/CMakeFiles/talker.dir/depend
 	$(MAKE) -f beginner_tutorials/CMakeFiles/talker.dir/build.make beginner_tutorials/CMakeFiles/talker.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  4
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  12
 	@echo "Built target talker"
 .PHONY : beginner_tutorials/CMakeFiles/talker.dir/all
 
@@ -658,6 +658,241 @@ beginner_tutorials/CMakeFiles/talker.dir/clean:
 
 # clean rule for target.
 clean: beginner_tutorials/CMakeFiles/talker.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory xfei_asr
+
+# Convenience name for "all" pass in the directory.
+xfei_asr/all: xfei_asr/CMakeFiles/asr_sample.dir/all
+xfei_asr/all: xfei_asr/CMakeFiles/iat_publish_speak.dir/all
+xfei_asr/all: xfei_asr/CMakeFiles/iat_record.dir/all
+xfei_asr/all: xfei_asr/CMakeFiles/iat_sample.dir/all
+xfei_asr/all: xfei_asr/CMakeFiles/tts_sample.dir/all
+xfei_asr/all: xfei_asr/CMakeFiles/tts_subscribe_speak.dir/all
+.PHONY : xfei_asr/all
+
+# Convenience name for "clean" pass in the directory.
+xfei_asr/clean: xfei_asr/CMakeFiles/asr_sample.dir/clean
+xfei_asr/clean: xfei_asr/CMakeFiles/iat_publish_speak.dir/clean
+xfei_asr/clean: xfei_asr/CMakeFiles/iat_record.dir/clean
+xfei_asr/clean: xfei_asr/CMakeFiles/iat_sample.dir/clean
+xfei_asr/clean: xfei_asr/CMakeFiles/tts_sample.dir/clean
+xfei_asr/clean: xfei_asr/CMakeFiles/tts_subscribe_speak.dir/clean
+.PHONY : xfei_asr/clean
+
+# Convenience name for "preinstall" pass in the directory.
+xfei_asr/preinstall:
+.PHONY : xfei_asr/preinstall
+
+#=============================================================================
+# Target rules for target xfei_asr/CMakeFiles/asr_sample.dir
+
+# All Build rule for target.
+xfei_asr/CMakeFiles/asr_sample.dir/all:
+	$(MAKE) -f xfei_asr/CMakeFiles/asr_sample.dir/build.make xfei_asr/CMakeFiles/asr_sample.dir/depend
+	$(MAKE) -f xfei_asr/CMakeFiles/asr_sample.dir/build.make xfei_asr/CMakeFiles/asr_sample.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  1
+	@echo "Built target asr_sample"
+.PHONY : xfei_asr/CMakeFiles/asr_sample.dir/all
+
+# Include target in all.
+all: xfei_asr/CMakeFiles/asr_sample.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+xfei_asr/CMakeFiles/asr_sample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 xfei_asr/CMakeFiles/asr_sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 0
+.PHONY : xfei_asr/CMakeFiles/asr_sample.dir/rule
+
+# Convenience name for target.
+asr_sample: xfei_asr/CMakeFiles/asr_sample.dir/rule
+.PHONY : asr_sample
+
+# clean rule for target.
+xfei_asr/CMakeFiles/asr_sample.dir/clean:
+	$(MAKE) -f xfei_asr/CMakeFiles/asr_sample.dir/build.make xfei_asr/CMakeFiles/asr_sample.dir/clean
+.PHONY : xfei_asr/CMakeFiles/asr_sample.dir/clean
+
+# clean rule for target.
+clean: xfei_asr/CMakeFiles/asr_sample.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target xfei_asr/CMakeFiles/iat_publish_speak.dir
+
+# All Build rule for target.
+xfei_asr/CMakeFiles/iat_publish_speak.dir/all:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_publish_speak.dir/build.make xfei_asr/CMakeFiles/iat_publish_speak.dir/depend
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_publish_speak.dir/build.make xfei_asr/CMakeFiles/iat_publish_speak.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  4 5 6
+	@echo "Built target iat_publish_speak"
+.PHONY : xfei_asr/CMakeFiles/iat_publish_speak.dir/all
+
+# Include target in all.
+all: xfei_asr/CMakeFiles/iat_publish_speak.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+xfei_asr/CMakeFiles/iat_publish_speak.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 xfei_asr/CMakeFiles/iat_publish_speak.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 0
+.PHONY : xfei_asr/CMakeFiles/iat_publish_speak.dir/rule
+
+# Convenience name for target.
+iat_publish_speak: xfei_asr/CMakeFiles/iat_publish_speak.dir/rule
+.PHONY : iat_publish_speak
+
+# clean rule for target.
+xfei_asr/CMakeFiles/iat_publish_speak.dir/clean:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_publish_speak.dir/build.make xfei_asr/CMakeFiles/iat_publish_speak.dir/clean
+.PHONY : xfei_asr/CMakeFiles/iat_publish_speak.dir/clean
+
+# clean rule for target.
+clean: xfei_asr/CMakeFiles/iat_publish_speak.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target xfei_asr/CMakeFiles/iat_record.dir
+
+# All Build rule for target.
+xfei_asr/CMakeFiles/iat_record.dir/all:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_record.dir/build.make xfei_asr/CMakeFiles/iat_record.dir/depend
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_record.dir/build.make xfei_asr/CMakeFiles/iat_record.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  7 8 9
+	@echo "Built target iat_record"
+.PHONY : xfei_asr/CMakeFiles/iat_record.dir/all
+
+# Include target in all.
+all: xfei_asr/CMakeFiles/iat_record.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+xfei_asr/CMakeFiles/iat_record.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 xfei_asr/CMakeFiles/iat_record.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 0
+.PHONY : xfei_asr/CMakeFiles/iat_record.dir/rule
+
+# Convenience name for target.
+iat_record: xfei_asr/CMakeFiles/iat_record.dir/rule
+.PHONY : iat_record
+
+# clean rule for target.
+xfei_asr/CMakeFiles/iat_record.dir/clean:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_record.dir/build.make xfei_asr/CMakeFiles/iat_record.dir/clean
+.PHONY : xfei_asr/CMakeFiles/iat_record.dir/clean
+
+# clean rule for target.
+clean: xfei_asr/CMakeFiles/iat_record.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target xfei_asr/CMakeFiles/iat_sample.dir
+
+# All Build rule for target.
+xfei_asr/CMakeFiles/iat_sample.dir/all:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_sample.dir/build.make xfei_asr/CMakeFiles/iat_sample.dir/depend
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_sample.dir/build.make xfei_asr/CMakeFiles/iat_sample.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  10
+	@echo "Built target iat_sample"
+.PHONY : xfei_asr/CMakeFiles/iat_sample.dir/all
+
+# Include target in all.
+all: xfei_asr/CMakeFiles/iat_sample.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+xfei_asr/CMakeFiles/iat_sample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 xfei_asr/CMakeFiles/iat_sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 0
+.PHONY : xfei_asr/CMakeFiles/iat_sample.dir/rule
+
+# Convenience name for target.
+iat_sample: xfei_asr/CMakeFiles/iat_sample.dir/rule
+.PHONY : iat_sample
+
+# clean rule for target.
+xfei_asr/CMakeFiles/iat_sample.dir/clean:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_sample.dir/build.make xfei_asr/CMakeFiles/iat_sample.dir/clean
+.PHONY : xfei_asr/CMakeFiles/iat_sample.dir/clean
+
+# clean rule for target.
+clean: xfei_asr/CMakeFiles/iat_sample.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target xfei_asr/CMakeFiles/tts_sample.dir
+
+# All Build rule for target.
+xfei_asr/CMakeFiles/tts_sample.dir/all:
+	$(MAKE) -f xfei_asr/CMakeFiles/tts_sample.dir/build.make xfei_asr/CMakeFiles/tts_sample.dir/depend
+	$(MAKE) -f xfei_asr/CMakeFiles/tts_sample.dir/build.make xfei_asr/CMakeFiles/tts_sample.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  13
+	@echo "Built target tts_sample"
+.PHONY : xfei_asr/CMakeFiles/tts_sample.dir/all
+
+# Include target in all.
+all: xfei_asr/CMakeFiles/tts_sample.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+xfei_asr/CMakeFiles/tts_sample.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 xfei_asr/CMakeFiles/tts_sample.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 0
+.PHONY : xfei_asr/CMakeFiles/tts_sample.dir/rule
+
+# Convenience name for target.
+tts_sample: xfei_asr/CMakeFiles/tts_sample.dir/rule
+.PHONY : tts_sample
+
+# clean rule for target.
+xfei_asr/CMakeFiles/tts_sample.dir/clean:
+	$(MAKE) -f xfei_asr/CMakeFiles/tts_sample.dir/build.make xfei_asr/CMakeFiles/tts_sample.dir/clean
+.PHONY : xfei_asr/CMakeFiles/tts_sample.dir/clean
+
+# clean rule for target.
+clean: xfei_asr/CMakeFiles/tts_sample.dir/clean
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target xfei_asr/CMakeFiles/tts_subscribe_speak.dir
+
+# All Build rule for target.
+xfei_asr/CMakeFiles/tts_subscribe_speak.dir/all:
+	$(MAKE) -f xfei_asr/CMakeFiles/tts_subscribe_speak.dir/build.make xfei_asr/CMakeFiles/tts_subscribe_speak.dir/depend
+	$(MAKE) -f xfei_asr/CMakeFiles/tts_subscribe_speak.dir/build.make xfei_asr/CMakeFiles/tts_subscribe_speak.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/yobot/ROS/catkin_ws/build/CMakeFiles  14
+	@echo "Built target tts_subscribe_speak"
+.PHONY : xfei_asr/CMakeFiles/tts_subscribe_speak.dir/all
+
+# Include target in all.
+all: xfei_asr/CMakeFiles/tts_subscribe_speak.dir/all
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+xfei_asr/CMakeFiles/tts_subscribe_speak.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 xfei_asr/CMakeFiles/tts_subscribe_speak.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yobot/ROS/catkin_ws/build/CMakeFiles 0
+.PHONY : xfei_asr/CMakeFiles/tts_subscribe_speak.dir/rule
+
+# Convenience name for target.
+tts_subscribe_speak: xfei_asr/CMakeFiles/tts_subscribe_speak.dir/rule
+.PHONY : tts_subscribe_speak
+
+# clean rule for target.
+xfei_asr/CMakeFiles/tts_subscribe_speak.dir/clean:
+	$(MAKE) -f xfei_asr/CMakeFiles/tts_subscribe_speak.dir/build.make xfei_asr/CMakeFiles/tts_subscribe_speak.dir/clean
+.PHONY : xfei_asr/CMakeFiles/tts_subscribe_speak.dir/clean
+
+# clean rule for target.
+clean: xfei_asr/CMakeFiles/tts_subscribe_speak.dir/clean
 .PHONY : clean
 
 #=============================================================================

@@ -383,6 +383,84 @@ talker/fast:
 	$(MAKE) -f beginner_tutorials/CMakeFiles/talker.dir/build.make beginner_tutorials/CMakeFiles/talker.dir/build
 .PHONY : talker/fast
 
+#=============================================================================
+# Target rules for targets named asr_sample
+
+# Build rule for target.
+asr_sample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 asr_sample
+.PHONY : asr_sample
+
+# fast build rule for target.
+asr_sample/fast:
+	$(MAKE) -f xfei_asr/CMakeFiles/asr_sample.dir/build.make xfei_asr/CMakeFiles/asr_sample.dir/build
+.PHONY : asr_sample/fast
+
+#=============================================================================
+# Target rules for targets named iat_publish_speak
+
+# Build rule for target.
+iat_publish_speak: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 iat_publish_speak
+.PHONY : iat_publish_speak
+
+# fast build rule for target.
+iat_publish_speak/fast:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_publish_speak.dir/build.make xfei_asr/CMakeFiles/iat_publish_speak.dir/build
+.PHONY : iat_publish_speak/fast
+
+#=============================================================================
+# Target rules for targets named iat_record
+
+# Build rule for target.
+iat_record: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 iat_record
+.PHONY : iat_record
+
+# fast build rule for target.
+iat_record/fast:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_record.dir/build.make xfei_asr/CMakeFiles/iat_record.dir/build
+.PHONY : iat_record/fast
+
+#=============================================================================
+# Target rules for targets named iat_sample
+
+# Build rule for target.
+iat_sample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 iat_sample
+.PHONY : iat_sample
+
+# fast build rule for target.
+iat_sample/fast:
+	$(MAKE) -f xfei_asr/CMakeFiles/iat_sample.dir/build.make xfei_asr/CMakeFiles/iat_sample.dir/build
+.PHONY : iat_sample/fast
+
+#=============================================================================
+# Target rules for targets named tts_sample
+
+# Build rule for target.
+tts_sample: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tts_sample
+.PHONY : tts_sample
+
+# fast build rule for target.
+tts_sample/fast:
+	$(MAKE) -f xfei_asr/CMakeFiles/tts_sample.dir/build.make xfei_asr/CMakeFiles/tts_sample.dir/build
+.PHONY : tts_sample/fast
+
+#=============================================================================
+# Target rules for targets named tts_subscribe_speak
+
+# Build rule for target.
+tts_subscribe_speak: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tts_subscribe_speak
+.PHONY : tts_subscribe_speak
+
+# fast build rule for target.
+tts_subscribe_speak/fast:
+	$(MAKE) -f xfei_asr/CMakeFiles/tts_subscribe_speak.dir/build.make xfei_asr/CMakeFiles/tts_subscribe_speak.dir/build
+.PHONY : tts_subscribe_speak/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -414,6 +492,12 @@ help:
 	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... talker"
+	@echo "... asr_sample"
+	@echo "... iat_publish_speak"
+	@echo "... iat_record"
+	@echo "... iat_sample"
+	@echo "... tts_sample"
+	@echo "... tts_subscribe_speak"
 .PHONY : help
 
 
