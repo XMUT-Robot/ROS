@@ -264,7 +264,7 @@ int main(int argc, char* argv[])
 			goto exit;	
 		printf("上传用户词表成功\n");
 	}
-	run_iat("wav/iflytek02.wav", session_begin_params); //iflytek02音频内容为“中美数控”；如果上传了用户词表，识别结果为：“中美速控”。
+	run_iat("wav/tts_sample.wav", session_begin_params); //iflytek02音频内容为“中美数控”；如果上传了用户词表，识别结果为：“中美速控”。
 exit:
 	printf("按任意键退出 ...\n");
 	getchar();
