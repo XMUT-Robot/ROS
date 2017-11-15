@@ -232,3 +232,11 @@ add_dependencies(chap2_example3_b chapter2_tutorials_generate_messages_cpp)
 
 target_link_libraries(chap2_example3_a ${catkin_LIBRARIES})
 target_link_libraries(chap2_example3_b ${catkin_LIBRARIES})
+
+#4 2017年11月16日02:12:43
+add_executable(chap2_example4 src/example4.cpp)
+
+add_dependencies(chap2_example4 chapter2_tutorials_gencfg)
+
+target_link_libraries(chap2_example4 ${catkin_LIBRARIES})
+

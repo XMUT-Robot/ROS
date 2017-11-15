@@ -90,6 +90,7 @@ chap2_example3_b_EXTERNAL_OBJECTS =
 /home/yobot/ROS/catkin_ws2/devel/lib/chapter2_tutorials/chap2_example3_b: /usr/lib/liblog4cxx.so
 /home/yobot/ROS/catkin_ws2/devel/lib/chapter2_tutorials/chap2_example3_b: /usr/lib/x86_64-linux-gnu/libboost_regex.so
 /home/yobot/ROS/catkin_ws2/devel/lib/chapter2_tutorials/chap2_example3_b: /opt/ros/indigo/lib/libxmlrpcpp.so
+/home/yobot/ROS/catkin_ws2/devel/lib/chapter2_tutorials/chap2_example3_b: /opt/ros/indigo/lib/libdynamic_reconfigure_config_init_mutex.so
 /home/yobot/ROS/catkin_ws2/devel/lib/chapter2_tutorials/chap2_example3_b: /opt/ros/indigo/lib/libroscpp_serialization.so
 /home/yobot/ROS/catkin_ws2/devel/lib/chapter2_tutorials/chap2_example3_b: /opt/ros/indigo/lib/librostime.so
 /home/yobot/ROS/catkin_ws2/devel/lib/chapter2_tutorials/chap2_example3_b: /usr/lib/x86_64-linux-gnu/libboost_date_time.so

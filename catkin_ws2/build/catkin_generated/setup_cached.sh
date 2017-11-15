@@ -8,3 +8,4 @@
 
 # modified environment variables
 export PWD="/home/yobot/ROS/catkin_ws2/build"
+export ROS_PACKAGE_PATH="/home/yobot/handsfree/src:/home/yobot/yobot/src:/home/yobot/ROS/catkin_ws2/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"

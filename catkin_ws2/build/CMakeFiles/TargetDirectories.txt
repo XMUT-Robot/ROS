@@ -6,6 +6,8 @@
 /home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chap2_example2_b.dir
 /home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chap2_example3_a.dir
 /home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chap2_example3_b.dir
+/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chap2_example4.dir
+/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir
 /home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencpp.dir
 /home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chapter2_tutorials_generate_messages.dir
 /home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/chapter2_tutorials_generate_messages_cpp.dir
@@ -16,6 +18,10 @@
 /home/yobot/ROS/catkin_ws2/build/CMakeFiles/clean_test_results.dir
 /home/yobot/ROS/catkin_ws2/build/CMakeFiles/download_extra_data.dir
 /home/yobot/ROS/catkin_ws2/build/CMakeFiles/doxygen.dir
+/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir
+/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir
+/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
+/home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir
 /home/yobot/ROS/catkin_ws2/build/gtest/CMakeFiles/gtest.dir
 /home/yobot/ROS/catkin_ws2/build/gtest/CMakeFiles/gtest_main.dir
 /home/yobot/ROS/catkin_ws2/build/chapter2_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir

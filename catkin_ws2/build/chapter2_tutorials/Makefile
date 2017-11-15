@@ -262,6 +262,34 @@ chap2_example3_b/fast:
 .PHONY : chap2_example3_b/fast
 
 # Convenience name for target.
+chapter2_tutorials/CMakeFiles/chap2_example4.dir/rule:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 chapter2_tutorials/CMakeFiles/chap2_example4.dir/rule
+.PHONY : chapter2_tutorials/CMakeFiles/chap2_example4.dir/rule
+
+# Convenience name for target.
+chap2_example4: chapter2_tutorials/CMakeFiles/chap2_example4.dir/rule
+.PHONY : chap2_example4
+
+# fast build rule for target.
+chap2_example4/fast:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/chap2_example4.dir/build.make chapter2_tutorials/CMakeFiles/chap2_example4.dir/build
+.PHONY : chap2_example4/fast
+
+# Convenience name for target.
+chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir/rule:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir/rule
+.PHONY : chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir/rule
+
+# Convenience name for target.
+chapter2_tutorials_gencfg: chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir/rule
+.PHONY : chapter2_tutorials_gencfg
+
+# fast build rule for target.
+chapter2_tutorials_gencfg/fast:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir/build.make chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir/build
+.PHONY : chapter2_tutorials_gencfg/fast
+
+# Convenience name for target.
 chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencpp.dir/rule:
 	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencpp.dir/rule
 .PHONY : chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencpp.dir/rule
@@ -358,6 +386,62 @@ chapter2_tutorials_genpy: chapter2_tutorials/CMakeFiles/chapter2_tutorials_genpy
 chapter2_tutorials_genpy/fast:
 	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/chapter2_tutorials_genpy.dir/build.make chapter2_tutorials/CMakeFiles/chapter2_tutorials_genpy.dir/build
 .PHONY : chapter2_tutorials_genpy/fast
+
+# Convenience name for target.
+chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_gencfg: chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir/rule
+.PHONY : dynamic_reconfigure_gencfg
+
+# fast build rule for target.
+dynamic_reconfigure_gencfg/fast:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
+
+# Convenience name for target.
+chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_cpp: chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_cpp/fast:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
+
+# Convenience name for target.
+chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_lisp: chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_lisp/fast:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+
+# Convenience name for target.
+chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f CMakeFiles/Makefile2 chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_py: chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/rule
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_py/fast:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 # Convenience name for target.
 chapter2_tutorials/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
@@ -629,6 +713,30 @@ src/example3_b.cpp.s:
 	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/chap2_example3_b.dir/build.make chapter2_tutorials/CMakeFiles/chap2_example3_b.dir/src/example3_b.cpp.s
 .PHONY : src/example3_b.cpp.s
 
+src/example4.o: src/example4.cpp.o
+.PHONY : src/example4.o
+
+# target to build an object file
+src/example4.cpp.o:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/chap2_example4.dir/build.make chapter2_tutorials/CMakeFiles/chap2_example4.dir/src/example4.cpp.o
+.PHONY : src/example4.cpp.o
+
+src/example4.i: src/example4.cpp.i
+.PHONY : src/example4.i
+
+# target to preprocess a source file
+src/example4.cpp.i:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/chap2_example4.dir/build.make chapter2_tutorials/CMakeFiles/chap2_example4.dir/src/example4.cpp.i
+.PHONY : src/example4.cpp.i
+
+src/example4.s: src/example4.cpp.s
+.PHONY : src/example4.s
+
+# target to generate assembly for a file
+src/example4.cpp.s:
+	cd /home/yobot/ROS/catkin_ws2/build && $(MAKE) -f chapter2_tutorials/CMakeFiles/chap2_example4.dir/build.make chapter2_tutorials/CMakeFiles/chap2_example4.dir/src/example4.cpp.s
+.PHONY : src/example4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -643,6 +751,8 @@ help:
 	@echo "... chap2_example2_b"
 	@echo "... chap2_example3_a"
 	@echo "... chap2_example3_b"
+	@echo "... chap2_example4"
+	@echo "... chapter2_tutorials_gencfg"
 	@echo "... chapter2_tutorials_gencpp"
 	@echo "... chapter2_tutorials_generate_messages"
 	@echo "... chapter2_tutorials_generate_messages_cpp"
@@ -650,6 +760,10 @@ help:
 	@echo "... chapter2_tutorials_generate_messages_py"
 	@echo "... chapter2_tutorials_genlisp"
 	@echo "... chapter2_tutorials_genpy"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... edit_cache"
 	@echo "... install"
 	@echo "... install/local"
@@ -684,6 +798,9 @@ help:
 	@echo "... src/example3_b.o"
 	@echo "... src/example3_b.i"
 	@echo "... src/example3_b.s"
+	@echo "... src/example4.o"
+	@echo "... src/example4.i"
+	@echo "... src/example4.s"
 .PHONY : help
 
 

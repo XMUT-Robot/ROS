@@ -345,6 +345,32 @@ chap2_example3_b/fast:
 .PHONY : chap2_example3_b/fast
 
 #=============================================================================
+# Target rules for targets named chap2_example4
+
+# Build rule for target.
+chap2_example4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chap2_example4
+.PHONY : chap2_example4
+
+# fast build rule for target.
+chap2_example4/fast:
+	$(MAKE) -f chapter2_tutorials/CMakeFiles/chap2_example4.dir/build.make chapter2_tutorials/CMakeFiles/chap2_example4.dir/build
+.PHONY : chap2_example4/fast
+
+#=============================================================================
+# Target rules for targets named chapter2_tutorials_gencfg
+
+# Build rule for target.
+chapter2_tutorials_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 chapter2_tutorials_gencfg
+.PHONY : chapter2_tutorials_gencfg
+
+# fast build rule for target.
+chapter2_tutorials_gencfg/fast:
+	$(MAKE) -f chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir/build.make chapter2_tutorials/CMakeFiles/chapter2_tutorials_gencfg.dir/build
+.PHONY : chapter2_tutorials_gencfg/fast
+
+#=============================================================================
 # Target rules for targets named chapter2_tutorials_gencpp
 
 # Build rule for target.
@@ -434,6 +460,58 @@ chapter2_tutorials_genpy: cmake_check_build_system
 chapter2_tutorials_genpy/fast:
 	$(MAKE) -f chapter2_tutorials/CMakeFiles/chapter2_tutorials_genpy.dir/build.make chapter2_tutorials/CMakeFiles/chapter2_tutorials_genpy.dir/build
 .PHONY : chapter2_tutorials_genpy/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_gencfg
+
+# Build rule for target.
+dynamic_reconfigure_gencfg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_gencfg
+.PHONY : dynamic_reconfigure_gencfg
+
+# fast build rule for target.
+dynamic_reconfigure_gencfg/fast:
+	$(MAKE) -f chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir/build.make chapter2_tutorials/CMakeFiles/dynamic_reconfigure_gencfg.dir/build
+.PHONY : dynamic_reconfigure_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_cpp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_cpp
+.PHONY : dynamic_reconfigure_generate_messages_cpp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_cpp/fast:
+	$(MAKE) -f chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_lisp/fast:
+	$(MAKE) -f chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_py
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_py
+.PHONY : dynamic_reconfigure_generate_messages_py
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_py/fast:
+	$(MAKE) -f chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make chapter2_tutorials/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_cpp
@@ -580,6 +658,8 @@ help:
 	@echo "... chap2_example2_b"
 	@echo "... chap2_example3_a"
 	@echo "... chap2_example3_b"
+	@echo "... chap2_example4"
+	@echo "... chapter2_tutorials_gencfg"
 	@echo "... chapter2_tutorials_gencpp"
 	@echo "... chapter2_tutorials_generate_messages"
 	@echo "... chapter2_tutorials_generate_messages_cpp"
@@ -587,6 +667,10 @@ help:
 	@echo "... chapter2_tutorials_generate_messages_py"
 	@echo "... chapter2_tutorials_genlisp"
 	@echo "... chapter2_tutorials_genpy"
+	@echo "... dynamic_reconfigure_gencfg"
+	@echo "... dynamic_reconfigure_generate_messages_cpp"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... roscpp_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
