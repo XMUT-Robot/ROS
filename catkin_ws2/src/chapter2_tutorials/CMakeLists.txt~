@@ -13,6 +13,11 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   message_generation #2017年10月30日13:43:20
+  dynamic_reconfigure
+)
+
+generate_dynamic_reconfigure_options(
+  cfg/chapter2.cfg
 )
 
 ## System dependencies are found with CMake's conventions
@@ -217,3 +222,13 @@ add_dependencies(chap2_example2_b chapter2_tutorials_generate_messages_cpp)
 
 target_link_libraries(chap2_example2_a ${catkin_LIBRARIES})
 target_link_libraries(chap2_example2_b ${catkin_LIBRARIES})
+
+#3
+add_executable(chap2_example3_a src/example3_a.cpp)
+add_executable(chap2_example3_b src/example3_b.cpp)
+
+add_dependencies(chap2_example3_a chapter2_tutorials_generate_messages_cpp)
+add_dependencies(chap2_example3_b chapter2_tutorials_generate_messages_cpp)
+
+target_link_libraries(chap2_example3_a ${catkin_LIBRARIES})
+target_link_libraries(chap2_example3_b ${catkin_LIBRARIES})

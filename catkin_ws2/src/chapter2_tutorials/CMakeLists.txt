@@ -13,6 +13,11 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   message_generation #2017年10月30日13:43:20
+  dynamic_reconfigure
+)
+
+generate_dynamic_reconfigure_options( #2017年11月14日16:23:00
+  cfg/chapter2.cfg
 )
 
 ## System dependencies are found with CMake's conventions
